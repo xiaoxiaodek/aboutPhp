@@ -1,6 +1,9 @@
 
-<code>
+<head>
+Python爬取 LOFTER 图片
+</head>
 <pre>
+<code>
 import urllib
 import re
 url="http://www.lofter.com/tag/%E6%91%84%E5%BD%B1?act=qbdashboardside_20121217_01"
@@ -24,5 +27,6 @@ def getImg(html):
     return imglist
 response=getHtml(url)
 print getImg(response)
-<pre>
 </code>
+<pre>
+
